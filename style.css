@@ -1,4 +1,3 @@
-
 /* Include padding e bordi nelle dimensioni degli elementi */
 * {
     box-sizing: border-box;
@@ -94,3 +93,7 @@ footer {
     font-size: 14px;
     color: #526174;
 }
+table, th, td {border: 1px solid black;}
+    caption {font-weight:bold; color: blue}
+    th {background-color: yellow;}
+    td {text-align: center;}
